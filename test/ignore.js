@@ -1,13 +1,13 @@
 var test = require('tap').test;
 var browserify = require('browserify');
-var ignorify = require('../lib/index.js');
+var tagify = require('../lib/index.js');
 
-var playground_dir = __dirname+'/playground/';
+var playground_dir = __dirname+'/playground-ignore/';
 
-test('ignorify', function (t) {
+test('@browserify-ignore', function (t) {
     
     var bundle = browserify();
-    bundle.use(ignorify);
+    bundle.use(tagify);
     bundle.addEntry(playground_dir+'index.js');
 
     t.ok(bundle.ignoring['./bar.js']);
