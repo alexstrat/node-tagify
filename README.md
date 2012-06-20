@@ -93,7 +93,7 @@ Then, to use your handler:
 var myHandler = function() {
 };
 b.use(require('tagify').handlers({
-  mytag : myHandler
+  'mytag' : myHandler
 }));
 ```
 
