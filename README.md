@@ -113,5 +113,13 @@ var fs = require('fs');
 b.use(require('tagify').flags(['shim1']));
 ```
 
+## Tests
+
+*Tested with browserify ~v1.16*
+
+```bash
+$ npm test
+```
+
 ## Licence
 MIT
