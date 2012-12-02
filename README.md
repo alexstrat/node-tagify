@@ -117,6 +117,8 @@ b.use(require('tagify').flags(['shim1']));
 
 *Tested with browserify ~v1.16*
 
+[![Build Status](https://secure.travis-ci.org/alexstrat/node-tagify.png?branch=master)](https://travis-ci.org/alexstrat/node-tagify)
+
 ```bash
 $ npm test
 ```
