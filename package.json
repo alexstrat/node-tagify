@@ -15,6 +15,9 @@
   "dependencies": {
     "optimist" : "~0.3"
     },
+  "peerDependency": {
+    "browserify": "1.x"
+  },
   "devDependencies": {
     "browserify" : "~1.16",
     "tap"        : "~0.3"

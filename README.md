@@ -11,6 +11,10 @@ Tagify comes *ad-hoc* with two handy tags, *alias* and *ignore* : see below how 
 $ npm install tagify
 ```
 
+# Compatibility
+
+*tagify* is compatible with brwoserify v1.
+
 # Usage
 
 Tagify is a browserify middleware :
